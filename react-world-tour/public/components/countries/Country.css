@@ -1,0 +1,18 @@
+.country{
+    border: 2px solid rebeccapurple;
+
+    margin: 10px;
+    padding: 10px;
+    border-radius: 15px;
+
+}
+.visited{
+    background: bisque;
+    color: black;
+}
+ul,list{
+    list-style: none;
+    font-size: 26px;
+    color: purple;
+    font-weight: bolder;
+}

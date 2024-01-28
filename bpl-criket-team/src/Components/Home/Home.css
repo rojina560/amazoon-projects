@@ -1,0 +1,35 @@
+
+body{
+background-image: url(''),linear-gradient(rgba(60, 5, 5, 0.275),rgba(224, 17, 17, 0.761));
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+.cart{
+    width: 250px;
+    height: 250px;
+    border: 2px solid gray;
+}
+.photo{
+    width: 80px;
+    border-radius: 50px;
+    
+}
+.info{
+    display: flex;
+    justify-content: space-evenly;
+}
+.home-container{
+    
+display: flex;
+}
+.cart-container{
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+   /* display: grid;
+   grid-template-columns: repeat(3,1fr);
+   gap: 15px;
+     */
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+    <style>
+        .bg-color{
+            background: yellow;
+        }
+    </style>
+</head>
+<body>
+    <h1>this is </h1>
+    <li>1</li>
+    <li>2</li>
+    <li>3</li>
+    <p id="paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo, aliquid?</p>
+    <h2 id="testing" class="some-class random-class blue-bg">this is for testing purpose</h2>
+    <main id="main-container">
+    <section id="places-container" class="bg-color">
+        <h2>this is h2</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum, excepturi!</p>
+        <ul>
+            <li>bujpuri</li>
+            <li>hindi</li>
+        </ul>
+    </section>
+    <section>
+        <h2>this is h2</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum, excepturi!</p>
+        <ul>
+            <li>bujpuri</li>
+            <li>hindi</li>
+        </ul>
+    </section>
+    <section>
+        <h2>this is h2</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum, excepturi!</p>
+        <ul>
+            <li>bujpuri</li>
+            <li>hindi</li>
+        </ul>
+    </section>
+    <section id="place-list">
+        <h2>this is h2</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum, excepturi!</p>
+        <ul>
+            <li>bujpuri</li>
+            <li>bangla</li>
+        </ul>
+    </section>
+     <p id="demo"></p>
+    </main>
+    
+    <script src="app.js"></script>
+    <script src="dom.js"></script>
+    <script src="append.js"></script>
+    <script src="settime.js"></script>
+   
+
+<script>
+const element = document.getElementById("demo");
+setInterval(function() {element.innerHTML += "Hello"}, 1000);
+</script>
+    
+    <!-- <script>
+        console.log(document.getElementsByTagName('h1'))
+        console.log(document.getElementsByTagName('h1'));
+        const liCollection = document.getElementsByTagName('li');
+        for( const li of liCollection){
+            console.log(li.innerText)
+        };
+        const para = document.getElementById('paragraph');
+        para.innerText = 'this is para';
+        const heading = document.getElementById('testing').style.color='red'
+        heading.innerText = 'this is heading';
+        const title= document.getElementById('paragraph')
+        title.classList
+      
+    </script> -->
+   
+</body>
+</html>

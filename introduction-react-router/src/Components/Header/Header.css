@@ -1,0 +1,9 @@
+div nav a{
+    margin-left: 20px;
+
+}
+div nav a.active{
+    text-decoration: underline;
+    color: chartreuse;
+    font-size: 30px;
+}
